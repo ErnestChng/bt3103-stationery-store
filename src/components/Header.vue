@@ -7,6 +7,8 @@
         <router-link to="/add" exact>Add Item</router-link>
         <router-link to="/list" exact>List</router-link>
         <router-link to="/axios" exact>Axios</router-link>
+        <router-link to="/firebase" exact>Firebase</router-link>
+        <router-link to="/firebase-bubble">Bubble Firebase</router-link>
       </nav>
     </header>
   </div>
@@ -14,9 +16,7 @@
 </template>
 
 <script>
-
 export default {
-
   data() {
     return {};
   },
@@ -26,8 +26,6 @@ export default {
           type: String
         }
       }
-
-
 };
 </script>
 
